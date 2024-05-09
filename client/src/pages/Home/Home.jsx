@@ -15,7 +15,8 @@ const Home = () => {
         if (data.success) {
           setData(data.data)
         } else {
-          alert("Error occured while fetching the data")
+          // alert("Error occured while fetching the data")
+          toast.error(data.message)
         }
       } catch (error) {
         console.log(error)
