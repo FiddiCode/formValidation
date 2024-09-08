@@ -9,7 +9,7 @@ import cityRoute from './routes/city.route.js'
 import stateRoute from './routes/state.route.js';
 import countryRoute from './routes/country.route.js'
  
-dotenv.config()
+ dotenv.config()
 
 const app = express(); 
  
