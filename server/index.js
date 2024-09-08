@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 //Route imports
 import registrationRoute from './routes/registration.route.js';
 import cityRoute from './routes/city.route.js'
-import stateRoute from './routes/state.route.js';
+import stateRoute from './routes/ state.route.js';
  import countryRoute from './routes/  country.route.js'
  
  dotenv.config()
